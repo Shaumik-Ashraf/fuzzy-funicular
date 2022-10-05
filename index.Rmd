@@ -8,6 +8,7 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
 # Index
 
 Github Pages via R Markdown and other RStudio tools. Below is the default generated content.
@@ -31,3 +32,7 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Images
+
+![Lossy image :/](images/nyc.jpg)
